@@ -75,7 +75,7 @@
   <g transform="translate(200, 68)">
     <text x="0" y="22" fill="#f8fafc" font-size="19" font-family="sans-serif" font-weight="800" letter-spacing="0.5">ABHISHEK S NAIR</text>
     <text x="0" y="44" fill="#c084fc" font-size="13" font-family="sans-serif" font-weight="700">Full Stack Developer</text>
-    <text x="0" y="64" fill="#94a3b8" font-size="11.5" font-family="sans-serif" font-style="italic">&ldquo;Leveling up through code.&rdquo;</text>
+    <text x="0" y="64" fill="#94a3b8" font-size="11.5" font-family="sans-serif" font-style="italic">“Leveling up through code.”</text>
 
     <line x1="0" y1="80" x2="265" y2="80" stroke="#334155" stroke-width="1" stroke-dasharray="3 3" />
 

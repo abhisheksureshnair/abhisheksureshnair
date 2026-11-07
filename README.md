@@ -1,96 +1,207 @@
 <div align="center">
 
-<picture><source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero/shadow-monarch-mobile-static.svg" /><source media="(max-width: 600px)" srcset="assets/hero/shadow-monarch-mobile.svg" /><source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/shadow-monarch-static.svg" /><img src="assets/hero/shadow-monarch.svg" alt="Abhishek S Nair — Full Stack Developer. Building web and mobile applications while exploring AI-assisted software development." width="1200" /></picture>
+<!-- ========================================================================= -->
+<!-- 1. CINEMATIC HERO BANNER (SOLO LEVELING SHADOW MONARCH THEME)             -->
+<!-- ========================================================================= -->
+<a href="https://github.com/abhisheksureshnair">
+  <img src="assets/hero-banner.png" alt="Abhishek S Nair — Solo Leveling Shadow Monarch Developer Dashboard" width="100%" />
+</a>
 
-<p>
-<a href="#featured-projects"><img src="assets/cards/link-projects.svg" alt="Projects" width="140" /></a>
-<a href="#github-activity"><img src="assets/cards/link-activity.svg" alt="Activity" width="140" /></a>
-<a href="https://abhisheksnair.vercel.app/"><img src="assets/cards/link-portfolio.svg" alt="Portfolio" width="140" /></a>
-<a href="README-static.md"><img src="assets/cards/link-static.svg" alt="Static" width="140" /></a>
-</p>
+<br/><br/>
 
-<p>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/monarch/chibi-idle.png" /><img src="assets/monarch/chibi-idle.gif" alt="Sung Jinwoo — idle aura" width="170" /></picture>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/monarch/chibi-dancing.png" /><img src="assets/monarch/chibi-dancing.gif" alt="Sung Jinwoo — victory dance" width="170" /></picture>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/monarch/shadow-soldier.png" /><img src="assets/monarch/shadow-soldier.gif" alt="Shadow soldier — violet summon" width="170" /></picture>
-</p>
+<!-- ========================================================================= -->
+<!-- 2. ANIMATED CHIBI & SHADOW SOLDIER SHOWCASE (ALL 4 DISTINCT MASCOTS)      -->
+<!-- ========================================================================= -->
+<table border="0" cellpadding="0" cellspacing="10" width="100%">
+  <tr>
+    <td width="25%" align="center" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 14px; padding: 14px;">
+      <img src="assets/animations/chibi-idle.gif" alt="Sung Jinwoo Chibi Idle" width="190" />
+      <h4 style="color: #c084fc; margin-top: 10px; margin-bottom: 2px;">⚡ Sung Jinwoo (Idle)</h4>
+      <p style="color: #94a3b8; font-size: 12px; margin: 0;">Breathing Aura • Pulsing Eyes • Soul Mist</p>
+    </td>
+    <td width="25%" align="center" bgcolor="#0a1020" style="border: 1px solid #22d3ee; border-radius: 14px; padding: 14px;">
+      <img src="assets/animations/chibi-typing.gif" alt="Solo Coder Typing" width="190" />
+      <h4 style="color: #22d3ee; margin-top: 10px; margin-bottom: 2px;">💻 Solo Coder (Focus)</h4>
+      <p style="color: #94a3b8; font-size: 12px; margin: 0;">Active Keystrokes • Floating Runes</p>
+    </td>
+    <td width="25%" align="center" bgcolor="#0a1020" style="border: 1px solid #a855f7; border-radius: 14px; padding: 14px;">
+      <img src="assets/animations/chibi-dancing.gif" alt="Victory Dance Level Up" width="190" />
+      <h4 style="color: #a855f7; margin-top: 10px; margin-bottom: 2px;">🕺 Victory Dance (Level Up)</h4>
+      <p style="color: #94a3b8; font-size: 12px; margin: 0;">Celebratory Jump • Purple Sparks</p>
+    </td>
+    <td width="25%" align="center" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 14px; padding: 14px;">
+      <img src="assets/animations/shadow-soldier.gif" alt="Shadow Knight Igris" width="190" />
+      <h4 style="color: #c084fc; margin-top: 10px; margin-bottom: 2px;">⚔️ Shadow Knight Igris</h4>
+      <p style="color: #94a3b8; font-size: 12px; margin: 0;">Commander Summon • Violet Flames</p>
+    </td>
+  </tr>
+</table>
 
-<p>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/cards/about-static.svg" /><img src="assets/cards/about.svg" alt="About: My public projects span web, mobile and desktop, using React, React Native and Flutter." width="360" /></picture>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/cards/project-focus-static.svg" /><img src="assets/cards/project-focus.svg" alt="Project focus: FlowSync tasks/chat, LiveSync location-sharing prototype, Echo desktop/browser assistant." width="360" /></picture>
-</p>
+<br/>
 
-<p>
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/cards/tech-galaxy-static.svg" /><img src="assets/cards/tech-galaxy.svg" alt="Technologies in public projects: React, React Native, Flutter, JavaScript, TypeScript, Python, Node.js, Express, MongoDB, FastAPI and Git." width="360" /></picture>
-<a href="https://abhisheksnair.vercel.app/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/cards/hunter-id-static.svg" /><img src="assets/cards/hunter-id.svg" alt="Developer identity: Abhishek S Nair; Full Stack Developer; GitHub abhisheksureshnair; nairsabhishek@gmail.com; abhisheksnair.vercel.app. Hunter ID is an anime theme only." width="360" /></picture></a>
-</p>
+<!-- ========================================================================= -->
+<!-- 3. ABOUT ME & CURRENTLY WORKING ON (SIDE-BY-SIDE GLASS PANELS)            -->
+<!-- ========================================================================= -->
+<table border="0" cellpadding="0" cellspacing="12" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/about-card.png" alt="About Me: Full Stack Developer building web, mobile, and desktop ecosystems" width="100%" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/currently-card.png" alt="Currently Working On: FlowSync, LiveSync Geolocation, and AlphaPulse Stock AI" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<p>
-<a href="docs/activity.md"><img src="assets/stats/repositories.svg" alt="Public owned repositories, including forks. See dated snapshot for figures and methodology." width="230" /></a>
-<a href="docs/activity.md"><img src="assets/stats/stars.svg" alt="Stars on owned non-fork public repositories. See dated snapshot for figures and methodology." width="230" /></a>
-<a href="docs/activity.md"><img src="assets/stats/projects.svg" alt="Owned non-fork public repositories. See dated snapshot for figures and methodology." width="230" /></a>
-</p>
+<br/>
 
-<a name="featured-projects"></a>
-<picture><source media="(max-width: 600px)" srcset="assets/cards/heading-projects-mobile.svg" /><img src="assets/cards/heading-projects.svg" alt="Featured projects" width="900" /></picture>
+<!-- ========================================================================= -->
+<!-- 4. TECH STACK GALAXY ORBIT & S-RANK HUNTER ID LICENSE                     -->
+<!-- ========================================================================= -->
+<table border="0" cellpadding="0" cellspacing="12" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="assets/tech-stack-galaxy.png" alt="Solo Leveling Tech Stack Galaxy Orbit" width="100%" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://abhisheksnair.vercel.app/" target="_blank">
+        <img src="assets/hunter-id-card.png" alt="Official S-Rank Hunter ID License" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-<p>
-<a href="https://github.com/abhisheksureshnair/flowsync"><img src="assets/projects/flowsync.svg" alt="FlowSync: Task boards and team messaging. React / Node.js; Express / MongoDB. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/LiveSync"><img src="assets/projects/LiveSync.svg" alt="LiveSync: Location-sharing prototype with simulated backend data. React Native / React; Node.js / Express. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/AlphaPulse-Stock-AI"><img src="assets/projects/AlphaPulse-Stock-AI.svg" alt="AlphaPulse Stock AI: Stock analysis and portfolio tooling. Flutter / React Native; Python / FastAPI. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/echo-desktop-ai"><img src="assets/projects/echo-desktop-ai.svg" alt="Echo Desktop AI: Desktop assistant and browser co-pilot. Electron / React; JavaScript. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/ecommerce-app-flutter"><img src="assets/projects/ecommerce-app-flutter.svg" alt="Luxentia: Fashion shopping application. Flutter / Dart; Node.js. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/vehicle-tracking-app-flutter"><img src="assets/projects/vehicle-tracking-app-flutter.svg" alt="Vehicle Tracking: Vehicle maps and route-history interface. Flutter / Dart; Node.js / Express. Original illustration, not a screenshot. Open repository." width="230" /></a>
-<a href="https://github.com/abhisheksureshnair/abhishek-portfolio"><img src="assets/projects/abhishek-portfolio.svg" alt="Abhishek Portfolio: Professional and cinematic portfolio. Next.js / React; TypeScript. Original illustration, not a screenshot. Open repository." width="230" /></a>
+<br/>
+
+<!-- ========================================================================= -->
+<!-- 5. VERIFIED TECHNICAL DOMAINS & TELEMETRY RIBBON                          -->
+<!-- ========================================================================= -->
+<a href="docs/activity.md">
+  <img src="assets/stats-ribbon.png" alt="Abhishek S Nair — Verified GitHub Telemetry" width="100%" />
+</a>
+
+<br/><br/>
+
+<!-- ========================================================================= -->
+<!-- 6. SHADOW ARSENAL — FEATURED PROJECTS (CUSTOM THEMED SECTION)             -->
+<!-- ========================================================================= -->
+<a href="https://github.com/abhisheksureshnair?tab=repositories">
+  <img src="assets/featured-repositories-showcase.png" alt="Shadow Arsenal — Featured Repositories Showcase" width="100%" />
+</a>
+
+<br/>
+
+<!-- Theme-Matched Solo Leveling Holographic Capsules -->
+<p align="center">
+  <a href="https://github.com/abhisheksureshnair/flowsync"><code>⚡ FlowSync</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/LiveSync"><code>📱 LiveSync</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/AlphaPulse-Stock-AI"><code>📈 AlphaPulse AI</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/echo-desktop-ai"><code>🤖 Echo Desktop AI</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/vehicle-tracking-app-flutter"><code>📍 Vehicle Tracking</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/ecommerce-app-flutter"><code>🛍️ Luxentia Store</code></a> &nbsp;•&nbsp;
+  <a href="https://github.com/abhisheksureshnair/abhishek-portfolio"><code>🌐 Portfolio</code></a>
 </p>
 
 <details>
-<summary>Project descriptions and technology sources</summary>
+<summary><b>View Verified Repository Descriptions & Tech Stacks</b></summary>
+<br/>
 
-- **[FlowSync](https://github.com/abhisheksureshnair/flowsync)** — Task boards and team messaging. React / Node.js; Express / MongoDB.
-- **[LiveSync](https://github.com/abhisheksureshnair/LiveSync)** — Location-sharing prototype with simulated backend data. React Native / React; Node.js / Express.
-- **[AlphaPulse Stock AI](https://github.com/abhisheksureshnair/AlphaPulse-Stock-AI)** — Stock analysis and portfolio tooling. Flutter / React Native; Python / FastAPI.
-- **[Echo Desktop AI](https://github.com/abhisheksureshnair/echo-desktop-ai)** — Desktop assistant and browser co-pilot. Electron / React; JavaScript.
-- **[Luxentia](https://github.com/abhisheksureshnair/ecommerce-app-flutter)** — Fashion shopping application. Flutter / Dart; Node.js.
-- **[Vehicle Tracking](https://github.com/abhisheksureshnair/vehicle-tracking-app-flutter)** — Vehicle maps and route-history interface. Flutter / Dart; Node.js / Express.
-- **[Abhishek Portfolio](https://github.com/abhisheksureshnair/abhishek-portfolio)** — Professional and cinematic portfolio. Next.js / React; TypeScript.
-
-These are public project examples, not employment or commercial deployment claims. Project Focus describes repository contents rather than an assertion of current work.
-
-</details>
-
-<a name="github-activity"></a>
-<picture><source media="(max-width: 600px)" srcset="assets/cards/heading-activity-mobile.svg" /><img src="assets/cards/heading-activity.svg" alt="GitHub activity" width="900" /></picture>
-
-<a href="docs/activity.md"><picture><source media="(max-width: 600px)" srcset="assets/stats/activity-mobile.svg" /><img src="assets/stats/activity.svg" alt="Dated public GitHub snapshot: repository statistics, primary-language counts and latest returned public event. Open the text snapshot for exact values and methodology." width="900" /></picture></a>
-
-<a href="https://github.com/abhisheksureshnair?tab=overview"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/background/contribution-city-static.svg" /><img src="assets/background/contribution-city.svg" alt="Decorative violet-moon cityscape. Open the real GitHub contribution history; this artwork does not encode contribution data." width="1200" /></picture></a>
-
-<details>
-<summary>Statistics scope and update policy</summary>
-
-[Read the dated API snapshot](docs/activity.md). Languages count non-fork repositories by primary language, not lines of code or proficiency. A daily workflow checks public data and publishes only when values change. The timestamp identifies the last changed snapshot; failures retain it. Contribution totals and streaks are omitted.
+| Repository | Scope & Description | Verified Technology Stack |
+| :--- | :--- | :--- |
+| **[FlowSync](https://github.com/abhisheksureshnair/flowsync)** | Collaborative task boards & real-time messaging engine | React • Node.js • Express • MongoDB |
+| **[LiveSync](https://github.com/abhisheksureshnair/LiveSync)** | Real-time geolocation sharing prototype with simulated telemetry | React Native • React • Node.js • Express |
+| **[AlphaPulse Stock AI](https://github.com/abhisheksureshnair/AlphaPulse-Stock-AI)** | Algorithmic market analytics & automated stock portfolio tooling | Flutter • React Native • Python • FastAPI |
+| **[Echo Desktop AI](https://github.com/abhisheksureshnair/echo-desktop-ai)** | Desktop productivity assistant & browser co-pilot | Electron • React • JavaScript |
+| **[Vehicle Tracking](https://github.com/abhisheksureshnair/vehicle-tracking-app-flutter)** | Fleet tracking mobile interface with GPS routes & telemetry history | Flutter • Dart • Node.js • Express |
+| **[Luxentia E-commerce](https://github.com/abhisheksureshnair/ecommerce-app-flutter)** | Luxury fashion mobile shopping application with cart & checkout | Flutter • Dart • Node.js |
+| **[Abhishek Portfolio](https://github.com/abhisheksureshnair/abhishek-portfolio)** | Cinematic, high-performance developer portfolio showcase | Next.js • React • TypeScript |
 
 </details>
 
-<picture><source media="(max-width: 600px)" srcset="assets/cards/heading-connect-mobile.svg" /><img src="assets/cards/heading-connect.svg" alt="Let’s connect" width="900" /></picture>
+<br/><br/>
 
-<p>
-<a href="https://github.com/abhisheksureshnair"><img src="assets/cards/link-github.svg" alt="GitHub" width="170" /></a>
-<a href="https://www.linkedin.com/in/abhisheksnair/"><img src="assets/cards/link-linkedin.svg" alt="LinkedIn" width="170" /></a>
-<a href="https://abhisheksnair.vercel.app/"><img src="assets/cards/link-portfolio.svg" alt="Portfolio" width="170" /></a>
-<a href="mailto:nairsabhishek@gmail.com"><img src="assets/cards/link-email.svg" alt="Email" width="170" /></a>
+<!-- ========================================================================= -->
+<!-- 7. ANIMATED CONTRIBUTION SNAKE & CONTRIBUTION CITY (ISOMETRIC METROPOLIS) -->
+<!-- ========================================================================= -->
+<h3 align="center" style="color: #c084fc; letter-spacing: 2px;">
+  🐍 SHADOW CONTRIBUTION MATRIX
+</h3>
+
+<a href="https://github.com/abhisheksureshnair">
+  <img src="assets/github-contribution-grid-snake.svg" alt="Animated Contribution Snake — Solo Leveling Violet Theme" width="100%" />
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/abhisheksureshnair?tab=overview">
+  <img src="assets/contribution-city-cinematic.png" alt="Solo Leveling Isometric Contribution City" width="100%" />
+</a>
+<br/>
+<img src="assets/animations/shadow-particles.gif" alt="Rising Shadow Particles" width="45%" />
+
+<br/><br/>
+
+<!-- ========================================================================= -->
+<!-- 8. SHADOW MONARCH LIVE ACTIVITY DASHBOARD (REAL DYNAMIC DATA)             -->
+<!-- ========================================================================= -->
+<h3 align="center" style="color: #c084fc; letter-spacing: 2px;">
+  📊 SHADOW MONARCH LIVE ACTIVITY DASHBOARD
+</h3>
+<p align="center" style="color: #94a3b8; font-size: 14px; margin-top: -6px;">
+  Verified GitHub contributions • Dynamic developer telemetry • Real public API data
 </p>
 
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/footer/shadow-energy-static.svg" /><img src="assets/footer/shadow-energy.svg" alt="Arise. Build. Level up. Abhishek S Nair — Shadow Monarch." width="1200" /></picture>
+<table border="0" cellpadding="0" cellspacing="8" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=abhisheksureshnair&show_icons=true&theme=radical&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&icon_color=a855f7&border_color=7c3aed&hide_border=false" alt="Abhishek S Nair GitHub Stats" width="100%" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhisheksureshnair&layout=compact&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&border_color=7c3aed&hide_border=false" alt="Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
+<br/>
+
+<!-- Offline / Fallback Verified Snapshot -->
 <details>
-<summary>Profile sources, accessibility and maintenance</summary>
+<summary><b>View Local Verified Snapshot & Audit Methodology</b></summary>
+<br/>
 
-[Source audit](docs/PROFILE.md) · [Static version](README-static.md) · [Validation](docs/QA.md) · [Artwork provenance](docs/ARTWORK.md)
+<a href="docs/activity.md">
+  <img src="assets/stats/activity.svg" alt="Local Committed GitHub Activity Snapshot" width="100%" />
+</a>
 
-Email: [nairsabhishek@gmail.com](mailto:nairsabhishek@gmail.com). Title and contacts come from the existing public account and portfolio. No resume-dependent experience, education, location or availability claims are included.
+<p align="center" style="color: #94a3b8; font-size: 13px;">
+  Read the full dated audit in <a href="docs/activity.md">docs/activity.md</a> and verified profile maintenance log in <a href="docs/PROFILE.md">docs/PROFILE.md</a>.
+</p>
 
 </details>
+
+<br/><br/>
+
+<!-- ========================================================================= -->
+<!-- 9. LET'S CONNECT                                                          -->
+<!-- ========================================================================= -->
+<a href="https://abhisheksnair.vercel.app/" target="_blank">
+  <img src="assets/connect-card.png" alt="Let's Connect" width="100%" />
+</a>
+
+<p align="center">
+  <a href="https://github.com/abhisheksureshnair"><img src="https://img.shields.io/badge/GitHub-abhisheksureshnair-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> &nbsp;
+  <a href="https://www.linkedin.com/in/abhisheksnair/"><img src="https://img.shields.io/badge/LinkedIn-abhisheksnair-22d3ee?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> &nbsp;
+  <a href="https://abhisheksnair.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-abhisheksnair.vercel.app-a855f7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a> &nbsp;
+  <a href="mailto:nairsabhishek@gmail.com"><img src="https://img.shields.io/badge/Email-nairsabhishek%40gmail.com-c4b5fd?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" /></a>
+</p>
+
+<br/>
+
+<!-- ========================================================================= -->
+<!-- 10. CINEMATIC SHADOW MONARCH FINALE (FOOTER BANNER)                       -->
+<!-- ========================================================================= -->
+<a href="https://github.com/abhisheksureshnair">
+  <img src="assets/shadow-monarch-footer.png" alt="Solo Leveling Shadow Monarch Finale — Arise. Build. Level Up." width="100%" />
+</a>
 
 </div>

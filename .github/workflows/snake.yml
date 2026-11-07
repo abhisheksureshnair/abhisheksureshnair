@@ -1,0 +1,39 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Every midnight UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: abhisheksureshnair
+          outputs: |
+            assets/github-contribution-grid-snake.svg?palette=github-dark&color_snake=#A855F7&color_dots=#0a1020,#3b0764,#6d28d9,#a855f7,#22d3ee
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#0a1020,#3b0764,#6d28d9,#a855f7,#22d3ee
+
+      - name: Commit & push snake assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-contribution-grid-snake*.svg
+          if git diff --staged --quiet; then
+            echo "No changes in contribution snake"
+            exit 0
+          fi
+          git commit -m "chore(telemetry): refresh animated contribution snake"
+          git push
