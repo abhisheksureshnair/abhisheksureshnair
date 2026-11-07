@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="252" viewBox="0 0 440 252" role="img">
+<title>project-abhishek-portfolio</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#15102C"/><stop offset="1" stop-color="#050510"/></linearGradient><radialGradient id="aura"><stop stop-color="#7C3AED" stop-opacity=".35"/><stop offset="1" stop-color="#050510" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="438" height="250" rx="18" fill="url(#bg)" stroke="#49316D"/>
+<ellipse cx="352.0" cy="100.80000000000001" rx="198.0" ry="201.60000000000002" fill="url(#aura)"/>
+<path d="M24 1 H108" stroke="#A855F7" stroke-width="3"/>
+<text x="26" y="34" fill="#22D3EE" font-size="12" font-weight="700" font-family="Arial, sans-serif">05 / PERSONAL PORTFOLIO</text><text x="26" y="78" fill="#F8FAFC" font-size="27" font-weight="700" font-family="Arial, sans-serif">Abhishek Portfolio</text><text x="26" y="118" fill="#C4B5FD" font-size="17" font-weight="400" font-family="Arial, sans-serif">Professional and cinematic experiences.</text><text x="26" y="145" fill="#C4B5FD" font-size="17" font-weight="400" font-family="Arial, sans-serif">A portfolio built with Next.js.</text><path d="M26 169 H414" stroke="#49316D"/><text x="26" y="198" fill="#C4B5FD" font-size="15" font-weight="400" font-family="Arial, sans-serif">Next.js · React · TypeScript</text><text x="26" y="230" fill="#A855F7" font-size="13" font-weight="700" font-family="Arial, sans-serif">EXPLORE REPOSITORY →</text></svg>

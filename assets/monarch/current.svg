@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="230" viewBox="0 0 440 230" role="img">
+<title>current</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#15102C"/><stop offset="1" stop-color="#050510"/></linearGradient><radialGradient id="aura"><stop stop-color="#7C3AED" stop-opacity=".35"/><stop offset="1" stop-color="#050510" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="438" height="228" rx="18" fill="url(#bg)" stroke="#49316D"/>
+<ellipse cx="352.0" cy="92.0" rx="198.0" ry="184.0" fill="url(#aura)"/>
+<path d="M24 1 H108" stroke="#A855F7" stroke-width="3"/>
+<text x="26" y="39" fill="#22D3EE" font-size="14" font-weight="700" font-family="Arial, sans-serif">02 / PROJECT FOCUS</text><text x="26" y="82" fill="#F8FAFC" font-size="27" font-weight="700" font-family="Arial, sans-serif">Inside the repositories.</text><text x="26" y="123" fill="#C4B5FD" font-size="18" font-weight="400" font-family="Arial, sans-serif">FlowSync — tasks and team chat</text><text x="26" y="153" fill="#C4B5FD" font-size="18" font-weight="400" font-family="Arial, sans-serif">LiveSync — location-sharing prototype</text><text x="26" y="183" fill="#C4B5FD" font-size="18" font-weight="400" font-family="Arial, sans-serif">Echo — desktop and browser assistant</text><text x="26" y="213" fill="#C4B5FD" font-size="14" font-weight="400" font-family="Arial, sans-serif">Public projects, not employment claims.</text></svg>
