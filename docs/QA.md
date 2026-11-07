@@ -1,17 +1,42 @@
-# Redesign validation — 2026-11-07
+# Cinematic redesign validation — 2026-11-07
 
-- GitHub's Markdown API rendered the actual README successfully (HTTP 200). Its sanitized output, including picture sources, was used for the browser preview.
-- Headless Chromium/Brave rendered full-page previews at 1200×900 and 375×900 in light and dark color schemes. All four runs reported zero broken images and no horizontal page overflow. Complete desktop dark/light and mobile light screenshots were visually inspected.
-- The mobile reduced-motion run selected **zero GIFs**, while normal-motion runs selected five GIF instances (three characters and two uses of the same particle asset). The separate static README has no GIF references.
-- All three optimized character GIFs decode successfully, retain 16 frames and infinite loops, match each source frame's duration, and contain changing image frames. A stable per-animation palette avoids independent-frame palette flashing.
-- The validator passed local image/link existence, image alt attributes, generated SVG XML parsing, absence of external image dependencies, and absence of unsupported README styling/scripts/tables.
-- API-error fixture testing confirmed that a failed refresh leaves every prior dashboard output unchanged.
-- The displayed asset references total approximately **1.68 MB**, including mobile alternatives and static fallbacks; browsers only request the selected picture sources. The three displayed character loops total **1.16 MB** versus **2.29 MB** originally.
-- Public repository availability was verified through GitHub's public repository API. Portfolio HTTP 200 and LinkedIn HTTP 999 are documented in [PROFILE.md](PROFILE.md). Email delivery was not tested.
-- Final diff whitespace validation passed. Only intended README, generated assets, maintenance scripts, documentation and workflow files are included. Original assets remain unchanged.
+Baseline: `1168134c65e63da6a4a2d0ed22b72c9dab4ca647`. Feature branch: `feat/shadow-monarch-profile-redesign`.
 
-These checks cover a browser preview using GitHub-rendered markup and GitHub-style CSS, not the native GitHub mobile app. No resume/PDF comparison was possible because neither file was supplied. Workflow execution and the published public profile are checked separately after publication when access permits.
+## Rendering and accessibility
 
-## Published profile check
+- GitHub's Markdown API returned HTTP 200 for the actual README. Its sanitized output was used for browser previews.
+- Chromium/Brave previews at 1200×900 (766px content column) and 375×900, in both light and dark modes, reported zero broken images and no horizontal overflow.
+- Full desktop light/dark and mobile light screenshots were visually inspected. Project cards form three columns at the desktop profile width and stack on mobile. The hero and section headings have separate mobile compositions.
+- Pixel comparisons 1.8 seconds apart confirmed motion in the hero, technology galaxy and footer SVGs. The artwork and text stay stationary while sparse particles pulse and drift.
+- Reduced-motion media switched those SVGs to their `-static.svg` versions; the reduced-motion mobile check loaded zero GIFs. The separate static README references no GIFs or SVG animation elements.
+- All generated SVGs parse as XML. The validator checks image existence, alternative text, local document links, no external image providers, no scripts/iframes/CSS injection, and the static surface.
+- The existing three optimized character GIFs retain their original 16 frames, timings and infinite loops. Their combined size remains about 1.16 MB.
+- All 47 distinct referenced assets, including alternate sources, total about 3.19 MB. Browsers load only their selected picture sources. The two original generated raster artworks total about 160 KB; SVG compositions embed optimized versions to avoid cross-origin image dependencies.
 
-After pushing, the public GitHub profile loaded all 22 displayed images without errors. Mobile at a 375px viewport selected static sources with zero GIFs and no broken images. Desktop and mobile screenshots of the actual public profile were visually inspected. Card display widths were then tuned to 360px to allow a two-column gallery within GitHub’s narrower desktop profile column.
+## Data and links
+
+Five standard-library regression tests pass:
+
+1. Owned/public/fork scopes and repositories without a language.
+2. No content or timestamp changes when metric values remain identical, even on another date.
+3. A network failure retains every prior output.
+4. Repository pagination and all-null language results.
+5. Private events are excluded from the public activity field.
+
+Public repository evidence was refreshed through GitHub's REST API. Project descriptions and stacks retain the source audit in [PROFILE.md](PROFILE.md). The portfolio's prior HTTP 200 result and LinkedIn's HTTP 999 restriction are recorded there. Mailbox delivery is not tested. No imaginary count, streak, professional ranking or experience duration was introduced.
+
+## Screenshots and remaining limits
+
+- [Before — desktop](previews/before-desktop.webp)
+- [Before — mobile](previews/before-mobile.webp)
+
+The baseline captures are from the actual public profile. Post-publication captures will be added after the feature branch is published. No reference images, PDF or resume were supplied, so exact reference matching and resume cross-checking cannot be certified. Native GitHub mobile-app behavior is not covered by browser tests.
+
+## Reproduce
+
+```sh
+python3 scripts/validate_profile.py
+python3 -m unittest discover -s scripts -p test_activity.py -v
+```
+
+The daily workflow uses only public API data and publishes when metric values change. Its timestamp identifies the last changed snapshot, not the last successful unchanged check. Workflow registration is checked after publication; a scheduled execution is a separate operational check.

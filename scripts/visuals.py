@@ -2,7 +2,7 @@
 from html import escape
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parents[1] / 'assets' / 'monarch'
+OUT = Path(__file__).resolve().parents[1] / 'assets' / 'stats'
 
 def text(x, y, value, size=18, color='#C4B5FD', weight=400):
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" font-family="Arial, sans-serif">{escape(str(value))}</text>'

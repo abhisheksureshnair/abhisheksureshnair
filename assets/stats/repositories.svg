@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="185" viewBox="0 0 300 185" role="img">
+<title>PUBLIC REPOSITORIES — dated public API snapshot</title>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#15102C"/><stop offset="1" stop-color="#050510"/></linearGradient><radialGradient id="aura"><stop stop-color="#7C3AED" stop-opacity=".35"/><stop offset="1" stop-color="#050510" stop-opacity="0"/></radialGradient></defs>
+<rect x="1" y="1" width="298" height="183" rx="18" fill="url(#bg)" stroke="#49316D"/>
+<ellipse cx="240.0" cy="74.0" rx="135.0" ry="148.0" fill="url(#aura)"/>
+<path d="M24 1 H108" stroke="#A855F7" stroke-width="3"/>
+<text x="22" y="38" fill="#22D3EE" font-size="14" font-weight="700" font-family="Arial, sans-serif">PUBLIC REPOSITORIES</text><text x="22" y="103" fill="#F8FAFC" font-size="48" font-weight="700" font-family="Arial, sans-serif">8</text><text x="22" y="137" fill="#C4B5FD" font-size="16" font-weight="400" font-family="Arial, sans-serif">Owned / including forks</text><text x="22" y="163" fill="#C4B5FD" font-size="14" font-weight="400" font-family="Arial, sans-serif">2026-11-07 UTC</text></svg>

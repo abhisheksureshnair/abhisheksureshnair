@@ -28,8 +28,13 @@ for filename in ('README.md', 'README-static.md'):
     if filename == 'README-static.md':
         assert '.gif' not in content
 
-for file in (ROOT/'assets'/'monarch').glob('*.svg'):
+dirs=['monarch','hero','cards','projects','stats','footer','background']
+for file in (f for d in dirs for f in (ROOT/'assets'/d).glob('*.svg')):
     root = ET.parse(file).getroot()
     assert root.tag.endswith('svg')
     assert '<script' not in file.read_text()
+static=(ROOT/'README-static.md').read_text()
+for asset in re.findall(r'(?:src|srcset)="(assets/[^"]+)"',static):
+    if asset.endswith('.svg'):
+        assert '<animate' not in (ROOT/asset).read_text(), asset
 print('PASS: local assets, alt text, static fallback, SVG XML and README constraints')

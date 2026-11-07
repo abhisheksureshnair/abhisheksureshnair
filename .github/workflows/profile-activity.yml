@@ -23,7 +23,7 @@ jobs:
         run: python scripts/update_activity.py
       - name: Publish changed snapshot
         run: |
-          git add assets/monarch/activity.svg assets/monarch/activity-mobile.svg assets/monarch/activity.json docs/activity.md
+          git add assets/stats/ docs/activity.md
           if git diff --cached --quiet; then exit 0; fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
