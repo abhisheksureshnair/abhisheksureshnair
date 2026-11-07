@@ -137,38 +137,15 @@
   <img src="assets/contribution-city-cinematic.png" alt="Solo Leveling Isometric Contribution City" width="100%" />
 </a>
 
-<br/>
-<img src="assets/animations/shadow-particles.gif" alt="Rising Shadow Particles" width="48%" />
-
-<br/><br/>
-
-<!-- ========================================================================= -->
-<!-- 8. SHADOW MONARCH LIVE ACTIVITY DASHBOARD (REAL DYNAMIC DATA)             -->
-<!-- ========================================================================= -->
-<h3 align="center" style="color: #c084fc; letter-spacing: 2px;">
-  📊 SHADOW MONARCH LIVE ACTIVITY DASHBOARD
-</h3>
-<p align="center" style="color: #94a3b8; font-size: 14px; margin-top: -6px; margin-bottom: 20px;">
-  Verified GitHub contributions • Dynamic developer telemetry • Real public API data
+<p align="center" style="margin-top: -6px; margin-bottom: 24px;">
+  <img src="assets/animations/shadow-particles.gif" alt="Rising Shadow Particles" width="50%" />
 </p>
 
-<!-- Perfectly Aligned Dynamic Stats Dashboard -->
-<table border="0" cellpadding="0" cellspacing="12" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="middle" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 12px; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api?username=abhisheksureshnair&show_icons=true&theme=radical&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&icon_color=a855f7&border_color=7c3aed&hide_border=true" alt="Abhishek S Nair GitHub Stats" width="100%" />
-    </td>
-    <td width="50%" align="center" valign="middle" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 12px; padding: 10px;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhisheksureshnair&layout=compact&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&border_color=7c3aed&hide_border=true" alt="Top Languages" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- Local Committed Snapshot (Always 100% Available) -->
+<!-- ========================================================================= -->
+<!-- 8. SHADOW MONARCH LIVE ACTIVITY DASHBOARD (REAL VERIFIED TELEMETRY)       -->
+<!-- ========================================================================= -->
 <a href="docs/activity.md">
-  <img src="assets/stats/activity.svg" alt="Local Committed GitHub Activity Snapshot" width="100%" />
+  <img src="assets/stats/shadow-activity-dashboard.png" alt="Shadow Monarch Live Activity Dashboard — Verified Telemetry & Language Distribution" width="100%" />
 </a>
 
 <br/><br/>

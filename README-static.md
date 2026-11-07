@@ -98,9 +98,9 @@
 
 <br/><br/>
 
-<!-- ACTIVITY DASHBOARD -->
+<!-- LIVE ACTIVITY DASHBOARD -->
 <a href="docs/activity.md">
-  <img src="assets/stats/activity.svg" alt="Local Committed GitHub Activity Snapshot" width="100%" />
+  <img src="assets/stats/shadow-activity-dashboard.png" alt="Shadow Monarch Live Activity Dashboard — Verified Telemetry & Language Distribution" width="100%" />
 </a>
 
 <br/><br/>
