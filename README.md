@@ -128,7 +128,7 @@
 </h3>
 
 <a href="https://github.com/abhisheksureshnair">
-  <img src="assets/github-contribution-grid-snake.svg" alt="Animated Contribution Snake — Solo Leveling Violet Theme" width="100%" />
+  <img src="assets/github-contribution-grid-snake.svg" alt="Animated Contribution Snake — Solo Leveling Arcade Eating Telemetry" width="100%" />
 </a>
 
 <br/><br/>
@@ -136,8 +136,9 @@
 <a href="https://github.com/abhisheksureshnair?tab=overview">
   <img src="assets/contribution-city-cinematic.png" alt="Solo Leveling Isometric Contribution City" width="100%" />
 </a>
+
 <br/>
-<img src="assets/animations/shadow-particles.gif" alt="Rising Shadow Particles" width="45%" />
+<img src="assets/animations/shadow-particles.gif" alt="Rising Shadow Particles" width="48%" />
 
 <br/><br/>
 
@@ -147,37 +148,28 @@
 <h3 align="center" style="color: #c084fc; letter-spacing: 2px;">
   📊 SHADOW MONARCH LIVE ACTIVITY DASHBOARD
 </h3>
-<p align="center" style="color: #94a3b8; font-size: 14px; margin-top: -6px;">
+<p align="center" style="color: #94a3b8; font-size: 14px; margin-top: -6px; margin-bottom: 20px;">
   Verified GitHub contributions • Dynamic developer telemetry • Real public API data
 </p>
 
-<table border="0" cellpadding="0" cellspacing="8" width="100%">
+<!-- Perfectly Aligned Dynamic Stats Dashboard -->
+<table border="0" cellpadding="0" cellspacing="12" width="100%">
   <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=abhisheksureshnair&show_icons=true&theme=radical&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&icon_color=a855f7&border_color=7c3aed&hide_border=false" alt="Abhishek S Nair GitHub Stats" width="100%" />
+    <td width="50%" align="center" valign="middle" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 12px; padding: 10px;">
+      <img src="https://github-readme-stats.vercel.app/api?username=abhisheksureshnair&show_icons=true&theme=radical&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&icon_color=a855f7&border_color=7c3aed&hide_border=true" alt="Abhishek S Nair GitHub Stats" width="100%" />
     </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhisheksureshnair&layout=compact&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&border_color=7c3aed&hide_border=false" alt="Top Languages" width="100%" />
+    <td width="50%" align="center" valign="middle" bgcolor="#0a1020" style="border: 1px solid #7c3aed; border-radius: 12px; padding: 10px;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhisheksureshnair&layout=compact&bg_color=0a1020&title_color=c084fc&text_color=94a3b8&border_color=7c3aed&hide_border=true" alt="Top Languages" width="100%" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- Offline / Fallback Verified Snapshot -->
-<details>
-<summary><b>View Local Verified Snapshot & Audit Methodology</b></summary>
-<br/>
-
+<!-- Local Committed Snapshot (Always 100% Available) -->
 <a href="docs/activity.md">
   <img src="assets/stats/activity.svg" alt="Local Committed GitHub Activity Snapshot" width="100%" />
 </a>
-
-<p align="center" style="color: #94a3b8; font-size: 13px;">
-  Read the full dated audit in <a href="docs/activity.md">docs/activity.md</a> and verified profile maintenance log in <a href="docs/PROFILE.md">docs/PROFILE.md</a>.
-</p>
-
-</details>
 
 <br/><br/>
 
@@ -187,6 +179,8 @@
 <a href="https://abhisheksnair.vercel.app/" target="_blank">
   <img src="assets/connect-card.png" alt="Let's Connect" width="100%" />
 </a>
+
+<br/>
 
 <p align="center">
   <a href="https://github.com/abhisheksureshnair"><img src="https://img.shields.io/badge/GitHub-abhisheksureshnair-7c3aed?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a> &nbsp;
