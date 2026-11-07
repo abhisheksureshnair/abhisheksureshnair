@@ -11,3 +11,7 @@
 - Final diff whitespace validation passed. Only intended README, generated assets, maintenance scripts, documentation and workflow files are included. Original assets remain unchanged.
 
 These checks cover a browser preview using GitHub-rendered markup and GitHub-style CSS, not the native GitHub mobile app. No resume/PDF comparison was possible because neither file was supplied. Workflow execution and the published public profile are checked separately after publication when access permits.
+
+## Published profile check
+
+After pushing, the public GitHub profile loaded all 22 displayed images without errors. Mobile at a 375px viewport selected static sources with zero GIFs and no broken images. Desktop and mobile screenshots of the actual public profile were visually inspected. Card display widths were then tuned to 360px to allow a two-column gallery within GitHub’s narrower desktop profile column.

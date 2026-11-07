@@ -92,8 +92,8 @@ intro+='''
 
 ### About & project focus
 
-<img src="assets/monarch/about.svg" alt="About: My public projects span web, mobile and AI-assisted applications." width="440" />
-<img src="assets/monarch/current.svg" alt="Project focus: FlowSync task boards and chat, LiveSync location-sharing prototype, Echo desktop and browser assistant. Public projects, not employment claims." width="440" />
+<img src="assets/monarch/about.svg" alt="About: My public projects span web, mobile and AI-assisted applications." width="360" />
+<img src="assets/monarch/current.svg" alt="Project focus: FlowSync task boards and chat, LiveSync location-sharing prototype, Echo desktop and browser assistant. Public projects, not employment claims." width="360" />
 
 My public repositories explore team collaboration, location interfaces and AI-assisted tools. Browse [FlowSync](https://github.com/abhisheksureshnair/flowsync), [LiveSync](https://github.com/abhisheksureshnair/LiveSync) and [Echo](https://github.com/abhisheksureshnair/echo-desktop-ai) for their current implementation and setup.
 
@@ -110,7 +110,7 @@ Public code, with descriptions based on each repository. These are project examp
 <p>
 '''
 for slug,name,kind,lines,stack in PROJECTS:
-    intro+=f'<a href="https://github.com/abhisheksureshnair/{slug}"><img src="assets/monarch/project-{slug}.svg" alt="{name}: {" ".join(lines)} {stack}. Open repository." width="440" /></a>\n'
+    intro+=f'<a href="https://github.com/abhisheksureshnair/{slug}"><img src="assets/monarch/project-{slug}.svg" alt="{name}: {" ".join(lines)} {stack}. Open repository." width="360" /></a>\n'
 intro+='''
 </p>
 
